@@ -1,33 +1,60 @@
-.mainheading{
-color: red;
- font-size: 40px;
- text-align: center;
- font-family: Georgia, 'Times New Roman', Times, serif
- 
+body{
+
+    padding: 0;
+    margin: 0;
 }
 
-p{
-color: white;
-background-color: blue;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.heading1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
 }
+
 
 .heading2{
-color: plum;
-font-size: 30px;
-font-weight: solid;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: right;
 
 }
 
-#logo{
 
-    width: 240px;
-    height: 240px;
-    border-radius: 120px;
+.head2{
+    padding: 40px 10px 30px 50px;
+}
+
+.paragraph1{
+    color: blue;
+}
+
+.headborder{
+    border: 5px blue solid;
+}
+
+ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: space-between;
+
+}
+
+li{
+border: 5px red solid;
+border-radius: 12px;
+width:200px;
+margin-right: 20px;
+
+
 }
 
 a{
-    text-decoration: none;
-    color: green;
+display: block;
 }
+
+a:hover{
+background-color: black;
+
+}
+
